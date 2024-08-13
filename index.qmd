@@ -1,0 +1,95 @@
+---
+title: "UDL in CPSC 203"
+subtitle: "Programming, Problem Solving, and Algorithms"
+author: Firas Moosvi and Stephan Koenig
+format:
+  revealjs:
+    chalkboard: true
+    controls: true
+    revealjs-plugins:
+      - drop
+    drop:
+      engine: pyodide
+filters:
+ - pyodide
+---
+
+## Overview
+
+-   Non-major, general service course
+-   For many students often the second programming course
+
+### Goals
+
+-   Open access **website** with course content and **subtitled** videos
+-   **Scaffolding** to local development environment
+-   Accessible **slides**
+-   **Randomized question bank** of enabling mastery learning
+
+::: notes
+-   Course Designer, Dr. Cinda Heeren, is a strong advocate of inclusive teaching practices and established an easily expandable framework including frequent testing.
+-   Minimize threats and distractions and reduce barriers to engagement by providing easily accessible compute platform.
+-   Mastery-oriented feedback using an online testing platform.
+:::
+
+# Website and subtitled videos
+
+## {#website-and-videos .centered background-iframe="https://firas.moosvi.com/courses/cpsc203/2023_WT2/notes/week04/videos.html" background-interactive="true"}
+
+::: notes
+-   Enhance accessibility and inclusivity of videos by adding automatically generated subtitles.
+Still evaluating tool for crowdsourcing ([ClassTranscribe](https://classtranscribe.illinois.edu/){target="_blank"}) subtitles.
+-   Increase support for flipped classroom model by:
+-   Breaking existing recorded videos into small 4--12 mins chunks along the theoretical concepts.
+-   Freeing time so the class can be interactive and demo-based (experiential learning).
+:::
+
+# Scaffolding to local development environment
+
+## {#pl-workspace .centered background-image="images/pl-workspace.png" background-size="contain"}
+
+::: notes
+-   Setting up a working development environment on students' machines poses a significant challenge.
+-   Provide a [virtual online workspace](https://ca.prairielearn.com/pl/course_instance/6665/instructor/question/306967/preview){target="_blank"} using the online testing platform PrairieLearn.
+:::
+
+## {#vs-code-workspace .centered background-image="images/vs-code-workspace.png" background-size="contain"}
+
+::: notes
+-   Workspace includes a popular code editor, description of exercises, and all necessary files, enabling students to start coding on day one and follow along in class.
+-   Creates buffer during the first 5-6 weeks of the course to set up a working installation on students' machines, lowering the barrier for novices with support from teaching staff.
+:::
+
+# Accessible slides
+
+## Support of Python on slides and website {.scrollable}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 2*np.pi, 100)
+y = np.sin(x)
+plt.plot(x, y)
+plt.title('Sine wave')
+plt.show()
+```
+
+::: notes
+-   Use new web technologies to run code in browser.
+Another avenue to increase accessibility and interactive learning from day one.
+-   Also uses web technologies making the content screen reader compatible.
+-   Semantic HTML focuses on the meaning of the content, increasing the meaning of the styling.
+Styling can easily be changed globally for entire set of slides.
+:::
+
+# Randomized question bank
+
+## {#randomized-question-variant-1 .centered background-image="images/randomized-question_variant-1.png" background-size="contain"}
+
+## {#randomized-question-variant-2 .centered background-image="images/randomized-question_variant-2.png" background-size="contain"}
+
+::: notes
+-   Randomized question bane enables practice, good question design, and mastery learning.
+-   Previous CPSC 203 undergraduate teaching assistant, Minh Anh Nguyen, working on randomized questions ([Example](https://ca.prairielearn.com/pl/course_instance/6665/instructor/question/341155/preview){target="_blank"}].
+:::
