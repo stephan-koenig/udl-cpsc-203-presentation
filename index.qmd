@@ -25,12 +25,15 @@ filters:
  - pyodide
 ---
 
-## Overview
+## CPSC 203 overview
 
--   Non-major, general service course
--   For many students often the second programming course
+-   General service course for non-majors (mostly BSc, BA and BCom)
+-   Often second-ever programming course
+-   Started 2019W1, single section with increasing enrolment over the years, currently above 100 students
 
-### Goals
+## UDL goals
+
+Implement for 2024W2:
 
 -   Open access **website** with course content and **subtitled** videos
 -   **Scaffolding** to local development environment
