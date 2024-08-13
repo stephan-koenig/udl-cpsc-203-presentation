@@ -111,5 +111,36 @@ Styling can easily be changed globally for entire set of slides.
 
 ::: notes
 -   Randomized question bane enables practice, good question design, and mastery learning.
--   Previous CPSC 203 undergraduate teaching assistant, Minh Anh Nguyen, working on randomized questions ([Example](https://ca.prairielearn.com/pl/course_instance/6665/instructor/question/341155/preview){target="_blank"}].
+-   Previous CPSC 203 undergraduate teaching assistant, Minh Anh Nguyen, working on randomized questions ([Example](https://ca.prairielearn.com/pl/course_instance/6665/instructor/question/341155/preview){target="_blank"}.
+:::
+
+## Thank you! {.smaller}
+
+::: columns
+::: {.column .center width="65%"}
+### Acknowledgements
+
+Dr. Cinda Heeren for a fantastic course framework.
+
+Minh Anh Nguyen for bringing her TA experience into question and project design.
+
+### Contact us
+
+<a href="mailto:stephan.koenig@ubc.ca">{{< iconify fa6-solid envelope >}} stephan.koenig\@ubc.ca</a>
+
+<a href="mailto:firas.moosvi@ubc.ca">{{< iconify fa6-solid envelope >}} firas.moosvi\@ubc.ca</a>
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+Find out more about the online testing platform *PrairieLearn* and the Computer-Based Testing Facility on UBCV campus.
+
+{{< qrcode https://cbtf.ubc.ca/ width=300 height=300 >}}
+:::
+:::
+
+::: footer
+<a href="https://github.com/stephan-koenig/udl-cpsc-203-presentation">{{< iconify fa6-brands github >}} github.com/stephan-koenig/udl-cpsc-203-presentation</a> {{< iconify fa6-solid arrow-right >}} <a href="https://stephan-koenig.github.io/udl-cpsc-203-presentation">{{< iconify fa6-solid window-maximize >}} stephan-koenig.github.io/udl-cpsc-203-presentation</a>
 :::
