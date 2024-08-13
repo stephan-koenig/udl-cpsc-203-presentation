@@ -2,17 +2,22 @@
 title: "UDL in CPSC 203"
 subtitle: "Programming, Problem Solving, and Algorithms"
 author:
-  - name: Firas Moosvi
-    orcid: 0000-0001-7007-4636
-    email: firas.moosvi@ubc.ca
-    affiliations:
-      - name: Computer Science, University of British Columbia
   - name: Stephan König
     orcid: 0000-0002-1597-3628
     email: stephan.koenig@ubc.ca
     affiliations:
-      - name: Skylight, University of British Columbia
-        department: Computer Science
+      - ref: skylight
+      - ref: cs
+  - name: Firas Moosvi
+    orcid: 0000-0001-7007-4636
+    email: firas.moosvi@ubc.ca
+    affiliations:
+      - ref: cs
+affiliations:
+  - id: skylight
+    name: Skylight, UBC
+  - id: cs
+    name: Computer Science, UBC
 format:
   revealjs:
     chalkboard: true
