@@ -21,6 +21,7 @@ format:
       - drop
     drop:
       engine: pyodide
+    email-obfuscation: javascript
 filters:
  - pyodide
 ---
