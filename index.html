@@ -488,7 +488,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"options":{"label":"","out-width":"700px","results":"markup","warning":"true","read-only":"false","context":"interactive","fig-height":5,"autorun":"","fig-width":7,"output":"true","dpi":72,"comment":"","fig-cap":"","classes":"","out-height":"","message":"true"},"id":1,"code":"import matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 2*np.pi, 100)\ny = np.sin(x)\nplt.plot(x, y)\nplt.title('Sine wave')\nplt.show()"}];
+  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 2*np.pi, 100)\ny = np.sin(x)\nplt.plot(x, y)\nplt.title('Sine wave')\nplt.show()","id":1,"options":{"fig-height":5,"label":"","context":"interactive","read-only":"false","results":"markup","autorun":"","output":"true","out-height":"","warning":"true","fig-width":7,"fig-cap":"","message":"true","dpi":72,"classes":"","comment":"","out-width":"700px"}}];
 
 
   </script>
@@ -771,9 +771,11 @@ Firas Moosvi <a href="https://orcid.org/0000-0001-7007-4636" class="quarto-title
 <aside class="notes">
 <ul>
 <li>Enhance accessibility and inclusivity of videos by adding automatically generated subtitles. Still evaluating tool for crowdsourcing (<a href="https://classtranscribe.illinois.edu/" target="_blank">ClassTranscribe</a>) subtitles.</li>
-<li>Increase support for flipped classroom model by:</li>
+<li>Increase support for flipped classroom model by:
+<ul>
 <li>Breaking existing recorded videos into small 4–12 mins chunks along the theoretical concepts.</li>
 <li>Freeing time so the class can be interactive and demo-based (experiential learning).</li>
+</ul></li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -903,14 +905,15 @@ Firas Moosvi <a href="https://orcid.org/0000-0001-7007-4636" class="quarto-title
 (function() {
   var script = document.currentScript;
   var qrcode = script.previousElementSibling;
-  qrcode.qrcode = new QRCode(qrcode, {"text":"https://cbtf.ubc.ca/","colorLight":"#ffffff","height":"300","width":"300","colorDark":"#000000"});
+  qrcode.qrcode = new QRCode(qrcode, {"width":"300","height":"300","colorLight":"#ffffff","text":"https://cbtf.ubc.ca/","colorDark":"#000000"});
   script.remove();
 })();
 </script>
     
 </div></div>
 <div class="footer">
-<p><a href="https://github.com/stephan-koenig/udl-cpsc-203-presentation"><iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon> github.com/stephan-koenig/udl-cpsc-203-presentation</a> <iconify-icon role="img" inline="" icon="fa6-solid:arrow-right" aria-label="Icon arrow-right from fa6-solid Iconify.design set." title="Icon arrow-right from fa6-solid Iconify.design set."></iconify-icon> <a href="https://stephan-koenig.github.io/udl-cpsc-203-presentation"><iconify-icon role="img" inline="" icon="fa6-solid:window-maximize" aria-label="Icon window-maximize from fa6-solid Iconify.design set." title="Icon window-maximize from fa6-solid Iconify.design set."></iconify-icon> stephan-koenig.github.io/udl-cpsc-203-presentation</a></p>
+<p><a href="https://github.com/stephan-koenig/udl-cpsc-203-presentation"><iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon> github.com/stephan-koenig/udl-cpsc-203-presentation</a></p>
+<p><a href="https://stephan-koenig.github.io/udl-cpsc-203-presentation"><iconify-icon role="img" inline="" icon="fa6-solid:window-maximize" aria-label="Icon window-maximize from fa6-solid Iconify.design set." title="Icon window-maximize from fa6-solid Iconify.design set."></iconify-icon> stephan-koenig.github.io/udl-cpsc-203-presentation</a></p>
 </div>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
