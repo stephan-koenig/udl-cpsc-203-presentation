@@ -54,26 +54,26 @@ Implement for 2024W2:
 
 # Website and subtitled videos
 
-## {#website-and-videos .centered background-iframe="https://firas.moosvi.com/courses/cpsc203/2023_WT2/notes/week04/videos.html" background-interactive="true"}
+##  {#website-and-videos .centered background-iframe="https://firas.moosvi.com/courses/cpsc203/2023_WT2/notes/week04/videos.html" background-interactive="true"}
 
 ::: notes
 -   Enhance accessibility and inclusivity of videos by adding automatically generated subtitles.
 Still evaluating tool for crowdsourcing ([ClassTranscribe](https://classtranscribe.illinois.edu/){target="_blank"}) subtitles.
 -   Increase support for flipped classroom model by:
--   Breaking existing recorded videos into small 4--12 mins chunks along the theoretical concepts.
--   Freeing time so the class can be interactive and demo-based (experiential learning).
+    -   Breaking existing recorded videos into small 4--12 mins chunks along the theoretical concepts.
+    -   Freeing time so the class can be interactive and demo-based (experiential learning).
 :::
 
 # Scaffolding to local development environment
 
-## {#pl-workspace .centered background-image="images/pl-workspace.png" background-size="contain"}
+##  {#pl-workspace .centered background-image="images/pl-workspace.png" background-size="contain"}
 
 ::: notes
 -   Setting up a working development environment on students' machines poses a significant challenge.
 -   Provide a [virtual online workspace](https://ca.prairielearn.com/pl/course_instance/6665/instructor/question/306967/preview){target="_blank"} using the online testing platform PrairieLearn.
 :::
 
-## {#vs-code-workspace .centered background-image="images/vs-code-workspace.png" background-size="contain"}
+##  {#vs-code-workspace .centered background-image="images/vs-code-workspace.png" background-size="contain"}
 
 ::: notes
 -   Workspace includes a popular code editor, description of exercises, and all necessary files, enabling students to start coding on day one and follow along in class.
@@ -105,9 +105,9 @@ Styling can easily be changed globally for entire set of slides.
 
 # Randomized question bank
 
-## {#randomized-question-variant-1 .centered background-image="images/randomized-question_variant-1.png" background-size="contain"}
+##  {#randomized-question-variant-1 .centered background-image="images/randomized-question_variant-1.png" background-size="contain"}
 
-## {#randomized-question-variant-2 .centered background-image="images/randomized-question_variant-2.png" background-size="contain"}
+##  {#randomized-question-variant-2 .centered background-image="images/randomized-question_variant-2.png" background-size="contain"}
 
 ::: notes
 -   Randomized question bane enables practice, good question design, and mastery learning.
@@ -142,5 +142,7 @@ Find out more about the online testing platform *PrairieLearn* and the Computer-
 :::
 
 ::: footer
-<a href="https://github.com/stephan-koenig/udl-cpsc-203-presentation">{{< iconify fa6-brands github >}} github.com/stephan-koenig/udl-cpsc-203-presentation</a> {{< iconify fa6-solid arrow-right >}} <a href="https://stephan-koenig.github.io/udl-cpsc-203-presentation">{{< iconify fa6-solid window-maximize >}} stephan-koenig.github.io/udl-cpsc-203-presentation</a>
+<a href="https://github.com/stephan-koenig/udl-cpsc-203-presentation">{{< iconify fa6-brands github >}} github.com/stephan-koenig/udl-cpsc-203-presentation</a>
+
+<a href="https://stephan-koenig.github.io/udl-cpsc-203-presentation">{{< iconify fa6-solid window-maximize >}} stephan-koenig.github.io/udl-cpsc-203-presentation</a>
 :::
