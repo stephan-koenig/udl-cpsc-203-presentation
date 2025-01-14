@@ -41,10 +41,11 @@ filters:
 
 Implement for 2024W2:
 
--   Open access **website** with course content and **subtitled** videos
+-   Open access **website** aligned with **improved course structure** and **subtitled** videos
 -   **Scaffolding** to local development environment
 -   Accessible **slides**
 -   **Randomized question bank** of enabling mastery learning
+-   **Improved course projects**
 
 ::: notes
 -   Course Designer, Dr. Cinda Heeren, is a strong advocate of inclusive teaching practices and established an easily expandable framework including frequent testing.
@@ -52,7 +53,7 @@ Implement for 2024W2:
 -   Mastery-oriented feedback using an online testing platform.
 :::
 
-# Website and subtitled videos
+# Website, improved course structure and subtitled videos
 
 ##  {#website-and-videos .centered background-iframe="https://firas.moosvi.com/courses/cpsc203/2023_WT2/notes/week04/videos.html" background-interactive="true"}
 
@@ -113,6 +114,12 @@ Styling can easily be changed globally for entire set of slides.
 -   Randomized question bane enables practice, good question design, and mastery learning.
 -   Previous CPSC 203 undergraduate teaching assistant, Minh Anh Nguyen, working on randomized questions ([Example](https://ca.prairielearn.com/pl/course_instance/6665/instructor/question/341155/preview){target="_blank"}.
 :::
+
+## Improved course projects
+
+-   Improved instructions to make the starting point for take-home projects for students straightforward
+-   More robust code base so students don't get stuck at the beginning
+-   More opportunities for students to demonstrate mastery by tackling some more challenging optional parts
 
 ## Thank you! {.smaller}
 
