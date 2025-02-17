@@ -58,8 +58,7 @@ Implement for 2024W2:
 ##  {#website-and-videos .centered background-iframe="https://firas.moosvi.com/courses/cpsc203/2023_WT2/notes/week04/videos.html" background-interactive="true"}
 
 ::: notes
--   Enhance accessibility and inclusivity of videos by adding automatically generated subtitles.
-Still evaluating tool for crowdsourcing ([ClassTranscribe](https://classtranscribe.illinois.edu/){target="_blank"}) subtitles.
+-   Enhance accessibility and inclusivity of videos by adding automatically generated subtitles. Still evaluating tool for crowdsourcing ([ClassTranscribe](https://classtranscribe.illinois.edu/){target="_blank"}) subtitles.
 -   Increase support for flipped classroom model by:
     -   Breaking existing recorded videos into small 4--12 mins chunks along the theoretical concepts.
     -   Freeing time so the class can be interactive and demo-based (experiential learning).
@@ -97,11 +96,9 @@ plt.show()
 ```
 
 ::: notes
--   Use new web technologies to run code in browser.
-Another avenue to increase accessibility and interactive learning from day one.
+-   Use new web technologies to run code in browser. Another avenue to increase accessibility and interactive learning from day one.
 -   Also uses web technologies making the content screen reader compatible.
--   Semantic HTML focuses on the meaning of the content, increasing the meaning of the styling.
-Styling can easily be changed globally for entire set of slides.
+-   Semantic HTML focuses on the meaning of the content, increasing the meaning of the styling. Styling can easily be changed globally for entire set of slides.
 :::
 
 # Randomized question bank
@@ -123,7 +120,7 @@ Styling can easily be changed globally for entire set of slides.
 
 ## Thank you! {.smaller}
 
-::: columns
+:::::: columns
 ::: {.column .center width="65%"}
 ### Acknowledgements
 
@@ -146,10 +143,10 @@ Find out more about the online testing platform *PrairieLearn* and the Computer-
 
 {{< qrcode https://cbtf.ubc.ca/ width=300 height=300 >}}
 :::
-:::
+::::::
 
 ::: footer
 <a href="https://github.com/stephan-koenig/udl-cpsc-203-presentation">{{< iconify fa6-brands github >}} github.com/stephan-koenig/udl-cpsc-203-presentation</a>
 
-<a href="https://stephan-koenig.github.io/udl-cpsc-203-presentation">{{< iconify fa6-solid window-maximize >}} stephan-koenig.github.io/udl-cpsc-203-presentation</a>
+<a href="https://skng.de/udl/slides">{{< iconify fa6-solid window-maximize >}} skng.de/udl/slides</a>
 :::
